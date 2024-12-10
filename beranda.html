@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda - Warung Adit</title>
+
+    <style>
+        /* CSS Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #636263;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 20px;
+            color: rgb(0, 0, 0);
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin-left: 20px;
+        }
+
+        header nav a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Banner */
+        .banner {
+            background-image: url('https://www.canva.com/design/DAGU9iIyPyo/EaxStUwMUy2x50zgiJxbJA/edit');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .banner h2 {
+            font-size: 48px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        /* Kategori Produk */
+        .kategori-container {
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+            gap: 30px;
+        }
+
+        .kategori-card {
+            background-color: white;
+            padding: 20px;
+            width: 200px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .kategori-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .kategori-card h3 {
+            margin-top: 15px;
+        }
+
+        /* Testimoni */
+        .testimoni {
+            background-color: #e0e0e0;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .testimoni h2 {
+            margin-bottom: 20px;
+        }
+
+        .testimoni-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .testimoni-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        .testimoni-card p {
+            margin-bottom: 30px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #fbfafa;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Warung Adit</h1>
+        <nav>
+            <ul>
+                <li><a href="beranda.html">Halaman</a></li>
+                <li><a href="jual.html">produk</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <h2>Selamat Datang di Warung Adit</h2>
+    </section>
+
+    <!-- Kategori Produk -->
+    <section class="kategori-container">
+        <div class="kategori-card">
+            <img src="https://via.placeholder.com/200x100" alt="Elektronik">
+            <h3>Gorengan</h3>
+        </div>
+        <div class="kategori-card">
+            <img src="/200x100" alt="Fashion">
+            <h3>Black Coffe</h3>
+        </div>
+        <div class="kategori-card">
+            <img src="https://via.placeholder.com/200x100" alt="Makanan">
+            <h3>Mie Instan</h3>
+        </div>
+    </section>
+
+    
+    <!-- Testimoni -->
+    <section class="testimoni">
+        <h2>Menu favorit di warung</h2>
+        <div class="testimoni-container">
+            <div class="testimoni-card">
+                <p>"Black coffe nya enak tidak terlalu manis"</p>
+                <strong>- Rayyan</strong>
+            </div>
+            <div class="testimoni-card">
+                <p>"Pelayanan sangat cepat"</p>
+                <strong>- Cikal</strong>
+            </div>
+            <div class="testimoni-card">
+                <p>"Harga terjangkau"</p>
+                <strong>- Faras</strong>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Selamat Datang di warung adit,silahkan beli :)</p>
+    </footer>
+
+</body>
+</html>
